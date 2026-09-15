@@ -1,30 +1,26 @@
-import "./App.css";
+import './App.css'
 
 function App() {
   return (
     <div className="login-container">
       <div className="login-box">
-        <h1>Login</h1>
-        <p>Welcome back!</p>
+        <h1>Welcome</h1>
+        <p>React Login Page</p>
 
-        <form>
-          <input
-            type="email"
-            placeholder="Email"
-            required
-          />
+        <input
+          type="text"
+          placeholder="Username"
+        />
 
-          <input
-            type="password"
-            placeholder="Password"
-            required
-          />
+        <input
+          type="password"
+          placeholder="Password"
+        />
 
-          <button type="submit">Login</button>
-        </form>
+        <button>Login</button>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
